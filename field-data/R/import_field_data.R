@@ -2,7 +2,7 @@ library(plyr)
 
 #' Initializes the Rovation environment
 #' @export
-InitRovation <- function() {
+InitRovation <- function() { #TODO
   if(Sys.info()['sysname'] == "Darwin") {
     Sys.setenv(NOAWT=1)  
   }
